@@ -1,13 +1,14 @@
-import { Heading, Image } from "@chakra-ui/core";
-import { Wrapper } from "../components/Wrapper";
-import { Avatar, AvatarBadge } from "@chakra-ui/core";
+import Intro from "../components/intro/Intro";
+import Projects from "../components/projects/Projects";
 
 const Index = () => {
   return (
-    <Wrapper>
-      <Heading>Welcome to My web site!</Heading>
-      <Image src="https://github.com/Eliascm17/Next-Portfolio/blob/master/src/assets/Me.JPEG" alt="Elias Moreno" />
-    </Wrapper>
+    <>
+      {/* <Header /> */}
+      <Intro />
+      <Projects/>
+      {/* <Footer/> */}
+    </>
   );
 };
 
