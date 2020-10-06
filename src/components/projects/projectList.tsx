@@ -47,4 +47,13 @@ export const projects = {
     color: "yellow",
     url: "https://github.com/Eliascm17/Next-Portfolio",
   },
+  capstone: {
+    title: "Senior Capstone Project",
+    desc: ``,
+    tech: "React Native, React Hooks, Javascript",
+    org: "CS 4366",
+    date: "Fall 2020",
+    color: "orange",
+    url: "https://github.com/Athena-Capstone-2020/athena-mobile-app",
+  },
 };
